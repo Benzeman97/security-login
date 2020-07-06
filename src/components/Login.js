@@ -60,6 +60,7 @@ function Login(props) {
      )
 
     return (
+      <div className="login">
         <Container component="main" maxWidth="xs">
         <CssBaseline />
         <div className={classes.paper}>
@@ -136,6 +137,7 @@ function Login(props) {
         <Box mt={8}>
         </Box>
       </Container>
+      </div>
     );
 }
 
